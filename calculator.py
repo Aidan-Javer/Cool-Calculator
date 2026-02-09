@@ -9,3 +9,7 @@ def sub(a, b):
 def mul(a, b):
     # Multiple two numbers and return the result
     return a * b
+
+def div(a, b):
+    # divides the first number by the second and return result
+    return a // b
