@@ -11,5 +11,7 @@ def mul(a, b):
     return a * b
 
 def div(a, b):
-    # divides the first number by the second and return result
-    return a // b
+    # divides the first number by the second ensuring second number != 0 and returns result
+    if b == 0:
+        return float('inf')  
+    return a / b
