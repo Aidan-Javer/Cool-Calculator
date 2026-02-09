@@ -5,3 +5,7 @@ def add(a, b):
 def sub(a, b):
     # Subtracts the second number from the first and returns the result
     return a - b
+
+def mul(a, b):
+    # Multiple two numbers and return the result
+    return a * b
