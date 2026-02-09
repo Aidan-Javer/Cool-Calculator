@@ -1,3 +1,5 @@
+import math
+
 def add(a, b):
     # Adds to numbers together and returns the result
     return a + b
@@ -15,3 +17,9 @@ def div(a, b):
     if b == 0:
         return float('inf')  
     return a / b
+
+def log(value, base):
+    return math.log(value, base)
+
+def log10(value):
+    return math.log(value)
