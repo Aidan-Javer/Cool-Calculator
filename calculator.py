@@ -1,2 +1,7 @@
 def add(a, b):
+    # Adds to numbers together and returns the result
     return a + b
+
+def sub(a, b):
+    # Subtracts the second number from the first and returns the result
+    return a - b
